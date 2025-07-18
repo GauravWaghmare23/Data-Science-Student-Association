@@ -279,7 +279,7 @@ const Events = () => {
                 >
                   <a href={selectedEvent.registrationLink} target="_blank" rel="noopener noreferrer">
                     Register Now
-                    <ExternalLink className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                    <ExternalLink className="w-5 h-8 ml-2 group-hover:translate-x-1 transition-transform" />
                   </a>
                 </Button>
                 <Button
