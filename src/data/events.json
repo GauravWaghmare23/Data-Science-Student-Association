@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "The Innovator's Quest",
+    "venue": "Nirvana Hall",
+    "time": "12:30 PM to 4:45 PM",
+    "fee": "₹120 per team",
+    "teams": "4 members, each from different branches",
+    "poster": "/api/placeholder/400/600",
+    "rounds": [
+      {
+        "name": "Logic & Mental Ability",
+        "time": "1:00 - 1:30 PM",
+        "description": "Test your logical reasoning and problem-solving skills"
+      },
+      {
+        "name": "Creative Build Challenge",
+        "time": "2:00 - 2:45 PM",
+        "description": "Build innovative solutions using provided materials"
+      },
+      {
+        "name": "Multi-Domain Quiz",
+        "time": "3:15 - 3:45 PM",
+        "description": "Cross-disciplinary knowledge test"
+      }
+    ],
+    "rules": [
+      "Each team must have exactly 4 members from different branches",
+      "Late entries will not be accepted",
+      "All team members must be present during registration",
+      "Use of mobile phones is strictly prohibited during rounds"
+    ],
+    "scoring": "Total 80 Points, Hint system available",
+    "prizes": [
+      "₹1000 (1st Place)",
+      "₹500 (2nd Place)",
+      "E-certificates to all participants"
+    ],
+    "registrationLink": "https://forms.google.com/example",
+    "coordinators": [
+      { "name": "Yashesh Bhivapurkar", "phone": "+91 9657355038" },
+      { "name": "Akshad Aloni", "phone": "+91 9373899460" }
+    ],
+    "status": "active",
+    "description": "The ultimate interdisciplinary collaboration challenge that tests technical skills, creativity, and teamwork."
+  }
+]  

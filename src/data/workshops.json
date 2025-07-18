@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "Deep Learning Fundamentals",
+    "venue": "Computer Lab A",
+    "time": "2:00 PM to 5:00 PM",
+    "fee": "₹200 per participant",
+    "duration": "3 hours",
+    "poster": "/api/placeholder/400/600",
+    "topics": [
+      "Neural Network Basics",
+      "Backpropagation Algorithm",
+      "Convolutional Neural Networks",
+      "Practical Implementation with TensorFlow"
+    ],
+    "prerequisites": "Basic Python knowledge",
+    "instructor": "Dr. Arun Kumar",
+    "maxParticipants": 30,
+    "registrationLink": "https://forms.google.com/workshop1",
+    "coordinators": [
+      { "name": "Neha Gupta", "phone": "+91 9876543216" },
+      { "name": "Arjun Singh", "phone": "+91 9876543217" }
+    ],
+    "status": "active",
+    "description": "Learn the fundamentals of deep learning and build your first neural network from scratch."
+  },
+  {
+    "id": 2,
+    "name": "Data Visualization with D3.js",
+    "venue": "Design Studio",
+    "time": "10:00 AM to 1:00 PM",
+    "fee": "₹150 per participant",
+    "duration": "3 hours",
+    "poster": "/api/placeholder/400/600",
+    "topics": [
+      "Introduction to D3.js",
+      "Creating Interactive Charts",
+      "Data Binding Concepts",
+      "Building Dashboard Components"
+    ],
+    "prerequisites": "HTML, CSS, JavaScript basics",
+    "instructor": "Prof. Maria Santos",
+    "maxParticipants": 25,
+    "registrationLink": "https://forms.google.com/workshop2",
+    "coordinators": [
+      { "name": "Vikram Reddy", "phone": "+91 9876543218" },
+      { "name": "Ananya Iyer", "phone": "+91 9876543219" }
+    ],
+    "status": "active",
+    "description": "Master the art of data visualization with D3.js and create stunning interactive charts."
+  },
+  {
+    "id": 3,
+    "name": "Machine Learning with Python",
+    "venue": "Tech Lab B",
+    "time": "9:00 AM to 4:00 PM",
+    "fee": "₹300 per participant",
+    "duration": "6 hours",
+    "poster": "/api/placeholder/400/600",
+    "topics": [
+      "Supervised Learning Algorithms",
+      "Unsupervised Learning Techniques",
+      "Model Evaluation and Selection",
+      "Feature Engineering",
+      "Scikit-learn Implementation"
+    ],
+    "prerequisites": "Python programming experience",
+    "instructor": "Dr. James Wilson",
+    "maxParticipants": 40,
+    "registrationLink": "https://forms.google.com/workshop3",
+    "coordinators": [
+      { "name": "Ravi Kiran", "phone": "+91 9876543220" },
+      { "name": "Pooja Malik", "phone": "+91 9876543221" }
+    ],
+    "status": "inactive",
+    "description": "Comprehensive workshop covering essential machine learning concepts and practical implementation."
+  },
+  {
+    "id": 4,
+    "name": "Big Data Analytics with Apache Spark",
+    "venue": "Data Center",
+    "time": "1:00 PM to 6:00 PM",
+    "fee": "₹400 per participant",
+    "duration": "5 hours",
+    "poster": "/api/placeholder/400/600",
+    "topics": [
+      "Introduction to Big Data",
+      "Apache Spark Architecture",
+      "RDD Operations",
+      "Spark SQL and DataFrames",
+      "Real-time Stream Processing"
+    ],
+    "prerequisites": "Java or Scala knowledge preferred",
+    "instructor": "Ms. Rachel Green",
+    "maxParticipants": 20,
+    "registrationLink": "https://forms.google.com/workshop4",
+    "coordinators": [
+      { "name": "Karthik Nair", "phone": "+91 9876543222" },
+      { "name": "Shreya Desai", "phone": "+91 9876543223" }
+    ],
+    "status": "active",
+    "description": "Learn to process and analyze large-scale datasets using Apache Spark framework."
+  }
+]

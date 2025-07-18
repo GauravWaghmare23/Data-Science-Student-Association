@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Veena Mam",
+    "role": "Head of department",
+    "image": "/api/placeholder/300/300",
+    "bio": "Final year Data Science student passionate about machine learning and AI ethics.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/alexchen",
+      "github": "https://github.com/alexchen",
+      "instagram": "https://instagram.com/alexchen_ds"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Arpit Topre",
+    "role": "Coummittie Incharge",
+    "image": "/api/placeholder/300/300",
+    "bio": "Specializing in computer vision and deep learning applications.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/priyasharma",
+      "github": "https://github.com/priyasharma",
+      "instagram": "https://instagram.com/priya_codes"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Yashesh Bhivapurkar",
+    "role": "President",
+    "image": "/api/placeholder/300/300",
+    "bio": "Expert in big data technologies and distributed computing systems.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/rajpatel",
+      "github": "https://github.com/rajpatel",
+      "instagram": "https://instagram.com/raj_tech"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Mrunali Dhopte",
+    "role": "Vice President",
+    "image": "/api/placeholder/300/300",
+    "bio": "Organizing impactful events and workshops for the data science community.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/lisawang",
+      "github": "https://github.com/lisawang",
+      "instagram": "https://instagram.com/lisa_events"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Krish Urkude",
+    "role": "Secretary",
+    "image": "/api/placeholder/300/300",
+    "bio": "Building connections between industry and academia in data science.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/mikerodriguez",
+      "github": "https://github.com/mikerodriguez",
+      "instagram": "https://instagram.com/mike_pr"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Akshad Aloni",
+    "role": "Technical Head",
+    "image": "/api/placeholder/300/300",
+    "bio": "Maintaining records and coordinating internal communications.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/nehagupta",
+      "github": "https://github.com/nehagupta",
+      "instagram": "https://instagram.com/neha_sec"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Khushi Bonde",
+    "role": "Culturle Head",
+    "image": "/api/placeholder/300/300",
+    "bio": "Managing finances and budgets for all DSSA activities.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/arjunsingh",
+      "github": "https://github.com/arjunsingh",
+      "instagram": "https://instagram.com/arjun_finance"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Gaurav Waghmare",
+    "role": "Event Coordinator",
+    "image": "/api/placeholder/300/300",
+    "bio": "Creating and maintaining digital platforms for the association.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/vikramreddy",
+      "github": "https://github.com/vikramreddy",
+      "instagram": "https://instagram.com/vikram_dev"
+    }
+  }
+]

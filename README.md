@@ -1,74 +1,94 @@
-# Welcome to your Lovable project
+# 🚀 DSSA (Data Science Student Association)
 
-## Project info
+A futuristic, neon-themed, responsive landing page and multi-section website for the **Data Science Student Association (DSSA)** — built using **React (Vite)**, **ShadCN/UI**, **Tailwind CSS**, and **JSON-based data loading**.
 
-**URL**: https://lovable.dev/projects/4f828257-7ae2-4653-a09b-13636839fd29
+## 🧠 Project Overview
 
-## How can I edit this code?
+This site serves as a central hub for DSSA activities and events. It includes a gamified and visually compelling UI inspired by **Star Wars, cyberpunk tech, and neon design**, presenting:
 
-There are several ways of editing your application.
+- About the DSSA
+- Weekly Departmental News
+- Flagship Event: Tech Carnival
+- Committee Members
+- Events & Workshops Pages
+- Feedback Form
+- All data-driven from editable JSON files
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4f828257-7ae2-4653-a09b-13636839fd29) and start prompting.
+## 🔧 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- ⚛️ React + Vite
+- 🎨 Tailwind CSS
+- 🧩 ShadCN/UI Components
+- 🧾 JSON (for all dynamic content)
+- 📤 EmailJS (for feedback form integration)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📂 Project Structure
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+dssa-landing/
+├── src/
+│ ├── assets/ # Images, Logos
+│ ├── components/ # Navbar, Footer, Hero, Cards, Sliders
+│ ├── pages/ # Home, About, Events, Workshops, etc.
+│ ├── data/ # JSON data files
+│ ├── App.jsx
+│ └── main.jsx
+├── public/
+├── package.json
+└── tailwind.config.js
 
-Follow these steps:
+markdown
+Copy
+Edit
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📄 Available Pages & Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 1. 🌌 **Home Page**
+- Neon-animated hero section
+- Star Wars-inspired design
+- Navigation to all sections
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 2. 🏢 **About DSSA**
+- Group photo of members
+- Departmental introduction and mission
+- Glowing cards and effects
 
-**Edit a file directly in GitHub**
+### 3. 📰 **Weekly News Section**
+- Carousel of 10 news items (from `news.json`)
+- Click-to-expand into full article view
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 4. 🎉 **Tech Carnival Page**
+- All info about flagship event
+- Description, visuals, past highlights
+- Neon gamified UI with transitions
 
-**Use GitHub Codespaces**
+### 5. 📆 **Events Page**
+- Cards from `events.json`
+- Each includes poster, rounds, rules, time, registration form, coordinator contacts
+- Active/Inactive status
+- “Coming Soon” fallback if no events
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 6. 🧪 **Workshops Page**
+- Workshop cards from `workshops.json`
+- Similar layout and dynamic behavior to Events
 
-## What technologies are used for this project?
+### 7. 👥 **Committee Page**
+- Members loaded from `committee.json`
+- Profile card includes image, name, post, social links
 
-This project is built with:
+### 8. 🗣️ **Feedback Page**
+- Form (name, email, message)
+- Integrated via EmailJS or serverless function
+- Sends response to DSSA email
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### 9. 🔗 **Footer**
+- Social links
+- Contact information
+- Copyright
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4f828257-7ae2-4653-a09b-13636839fd29) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-# Data-Science-Student-Association
+---
