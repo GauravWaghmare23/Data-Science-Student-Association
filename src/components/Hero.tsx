@@ -1,17 +1,22 @@
 import { ArrowRight, Database, Brain, TrendingUp } from "lucide-react";
+
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-bg.jpg";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+  
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-      {/* Background */}
-      <div className="absolute inset-0 z-0">
+      {/* Starfield background */}
+      <div className="absolute inset-0 z-0 bg-black">
+        <canvas id="stars" className="w-full h-full"></canvas>
         <img
           src={heroImage}
           alt="Cyberpunk Data Science Background"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover opacity-30"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-black/60" />
       </div>
@@ -27,7 +32,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 scale-in-center">
         <div className="text-center space-y-14 animate-fade-in">
           {/* DSSA Logo */}
           <div className="flex justify-center">
@@ -41,8 +46,11 @@ const Hero = () => {
 
           {/* DSSA Title */}
           <div className="space-y-6">
-            <h1 className="text-7xl md:text-9xl font-orbitron font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 animate-gradient-shift drop-shadow-xl">
-              DSSA
+            <h1 className="text-8xl md:text-[10rem] font-orbitron font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 animate-gradient-shift drop-shadow-xl tracking-wide">
+              <span className="inline-block animate-type-letter" style={{ animationDelay: "0ms" }}>D</span>
+              <span className="inline-block animate-type-letter" style={{ animationDelay: "150ms" }}>S</span>
+              <span className="inline-block animate-type-letter" style={{ animationDelay: "300ms" }}>S</span>
+              <span className="inline-block animate-type-letter" style={{ animationDelay: "450ms" }}>A</span>
             </h1>
 
             <h2 className="text-3xl md:text-5xl font-rajdhani font-bold text-white relative">
@@ -61,10 +69,10 @@ const Hero = () => {
           {/* Description */}
           <div className="relative max-w-4xl mx-auto">
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed backdrop-blur-sm bg-black/20 rounded-2xl p-8 border border-cyan-400/20">
-              Empowering the next generation of data scientists through{" "}
-              <span className="text-cyan-400 font-semibold animate-text-glow">innovation</span>,{" "}
-              <span className="text-purple-400 font-semibold animate-text-glow animation-delay-200">collaboration</span>, and{" "}
-              <span className="text-pink-400 font-semibold animate-text-glow animation-delay-400">cutting-edge research</span>.
+              Empowering the next generation of data scientists through
+              <span className="text-cyan-400 font-semibold animate-text-glow"> innovation</span>,
+              <span className="text-purple-400 font-semibold animate-text-glow animation-delay-200"> collaboration</span>, and
+              <span className="text-pink-400 font-semibold animate-text-glow animation-delay-400"> cutting-edge research</span>.
               <br />
               <span className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent mt-4 inline-block animate-pulse-glow">
                 Join us in shaping the future of data-driven decision making.
@@ -74,11 +82,9 @@ const Hero = () => {
 
           {/* Features */}
           <div className="flex justify-center space-x-8 md:space-x-12 animate-slide-in-up animate-delay-400">
-            {[
-              { icon: <Database className="w-8 h-8 text-primary" />, label: "Big Data" },
+            {[{ icon: <Database className="w-8 h-8 text-primary" />, label: "Big Data" },
               { icon: <Brain className="w-8 h-8 text-secondary" />, label: "AI/ML" },
-              { icon: <TrendingUp className="w-8 h-8 text-accent" />, label: "Analytics" },
-            ].map(({ icon, label }, index) => (
+              { icon: <TrendingUp className="w-8 h-8 text-accent" />, label: "Analytics" }].map(({ icon, label }, index) => (
               <div key={index} className="flex flex-col items-center space-y-2 group">
                 <div className="w-16 h-16 bg-card/50 rounded-full flex items-center justify-center border border-primary/20 group-hover:border-primary/50 transition-all duration-300 neon-glow">
                   {icon}
