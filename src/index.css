@@ -844,3 +844,15 @@
 .animation-delay-400 {
   animation-delay: 0.4s;
 }
+@keyframes infinite-slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-infinite-slide {
+  animation: infinite-slide 6s linear infinite; /* 2 slides * 3s per slide = 6s */
+}

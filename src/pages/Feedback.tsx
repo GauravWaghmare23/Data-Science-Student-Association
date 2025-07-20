@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { Send, Mail, MessageCircle, User } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -8,6 +9,7 @@ import { Label } from '@/components/ui/label';
 import { useToast } from '@/hooks/use-toast';
 
 const Feedback = () => {
+  const formRef = useRef(null);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -15,20 +17,35 @@ const Feedback = () => {
   });
   const { toast } = useToast();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Here you would typically send the form data to your backend or email service
-    toast({
-      title: "Feedback Submitted!",
-      description: "Thank you for your feedback. We'll get back to you soon.",
-    });
-    setFormData({ name: '', email: '', message: '' });
-  };
-
   const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      'service_l5qswut',      // Replace with your EmailJS service ID
+      'template_5gyrivy',     // Replace with your EmailJS template ID
+      formRef.current,
+      'ARtxZ-rzzuyiZZmo1'       // Replace with your EmailJS public key
+    )
+    .then(() => {
+      toast({
+        title: "Feedback Submitted!",
+        description: "Thank you for your feedback. We'll get back to you soon.",
+      });
+      setFormData({ name: '', email: '', message: '' });
+    })
+    .catch(() => {
+      toast({
+        title: "Failed to Send",
+        description: "There was an issue sending your message. Please try again.",
+        variant: "destructive"
+      });
     });
   };
 
@@ -59,7 +76,7 @@ const Feedback = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
                   <div className="space-y-2">
                     <Label htmlFor="name" className="text-foreground font-rajdhani">
                       <User className="w-4 h-4 inline mr-2" />
@@ -111,11 +128,7 @@ const Feedback = () => {
                     />
                   </div>
 
-                  <Button
-                    type="submit"
-                    size="lg"
-                    className="w-full cyber-card group"
-                  >
+                  <Button type="submit" size="lg" className="w-full cyber-card group">
                     <Send className="w-5 h-5 mr-2 group-hover:translate-x-1 transition-transform" />
                     Send Feedback
                   </Button>

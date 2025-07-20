@@ -1,8 +1,8 @@
-import NewsSlider from '@/components/NewsSlider';
+import NewsSlider from "@/components/NewsSlider";
 
 const News = () => {
   return (
-    <div className="min-h-screen pt-20">
+    <div className="min-h-screen pt-20 bg-background text-foreground">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-background to-card/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -11,14 +11,18 @@ const News = () => {
               Latest News
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed animate-slide-in-up">
-              Stay updated with the latest developments and achievements from DSSA
+              Stay updated with the latest developments and achievements from DSSA.
             </p>
           </div>
         </div>
       </section>
 
-      {/* News Content */}
-      <NewsSlider />
+      {/* News Slider Section */}
+      <section className="py-10">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <NewsSlider />
+        </div>
+      </section>
     </div>
   );
 };
