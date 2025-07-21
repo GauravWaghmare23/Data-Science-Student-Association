@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "DSSA Hosts AI/ML Workshop Series",
+    "title": " AI/ML Workshop",
     "description": "Learn cutting-edge machine learning techniques with industry experts",
     "image": "/api/placeholder/400/300",
     "date": "2024-01-15",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "title": "Data Science Hackathon Winners Announced",
+    "title": " Winners Announced",
     "description": "Students showcase innovative solutions to real-world problems",
     "image": "/api/placeholder/400/300",
     "date": "2024-01-10",
