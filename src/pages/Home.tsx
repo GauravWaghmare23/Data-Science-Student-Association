@@ -15,7 +15,7 @@ const Home = () => {
       {/* Quick Stats */}
       <section className="py-20 bg-gradient-to-br from-card/30 to-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center">
             <Card className="cyber-card text-center animate-slide-in-up">
               <CardHeader>
                 <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-2">
@@ -27,18 +27,6 @@ const Home = () => {
                 <p className="text-muted-foreground">Active Community Members</p>
               </CardContent>
             </Card>
-
-            {/* <Card className="cyber-card text-center animate-slide-in-up animate-delay-100">
-              <CardHeader>
-                <div className="w-12 h-12 bg-gradient-secondary rounded-full flex items-center justify-center mx-auto mb-2">
-                  <Calendar className="w-6 h-6 text-secondary-foreground" />
-                </div>
-                <CardTitle className="font-orbitron text-2xl gradient-text">50+</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">Events Hosted</p>
-              </CardContent>
-            </Card> */}
 
             <Card className="cyber-card text-center animate-slide-in-up animate-delay-200">
               <CardHeader>
