@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Components
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import ScrollToTop from "src/components/ScrollToTop.jsx"; // ✅ ScrollToTop component
+import ScrollToTop from "@/components/ScrollToTop"; // ✅ ScrollToTop component
 
 // Pages
 import Home from "./pages/Home";
