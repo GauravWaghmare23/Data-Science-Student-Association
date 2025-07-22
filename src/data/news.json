@@ -1,82 +1,10 @@
 [
   {
     "id": 1,
-    "title": " AI/ML Workshop",
-    "description": "Learn cutting-edge machine learning techniques with industry experts",
+    "title": "Innovator's Quest",
+    "description": "A one-of-a-kind inter-branch showdown where innovation meets imagination! Think smart, 🛠️ build bold, and 🧠 outplay the rest in this thrilling three-round event packed with puzzles, creativity, and pure genius.",
     "image": "/api/placeholder/400/300",
-    "date": "2024-01-15",
-    "content": "The Data Science Student Association successfully hosted a comprehensive AI/ML workshop series featuring renowned industry professionals. The workshop covered topics ranging from neural networks to deep learning architectures, providing students with hands-on experience in building real-world AI applications."
-  },
-  {
-    "id": 2,
-    "title": " Winners Announced",
-    "description": "Students showcase innovative solutions to real-world problems",
-    "image": "/api/placeholder/400/300",
-    "date": "2024-01-10",
-    "content": "After an intensive 48-hour hackathon, three teams emerged victorious with their innovative data science solutions. The winning projects included predictive healthcare analytics, smart city traffic optimization, and environmental impact assessment using satellite data."
-  },
-  {
-    "id": 3,
-    "title": "Industry Partnership with Tech Giants",
-    "description": "DSSA announces collaboration with leading technology companies",
-    "image": "/api/placeholder/400/300",
-    "date": "2024-01-08",
-    "content": "The association has formed strategic partnerships with major technology companies to provide students with internship opportunities, mentorship programs, and access to cutting-edge resources for their research projects."
-  },
-  {
-    "id": 4,
-    "title": "Research Paper Published in IEEE Conference",
-    "description": "DSSA members contribute to international research community",
-    "image": "/api/placeholder/400/300",
-    "date": "2024-01-05",
-    "content": "Several DSSA members have successfully published their research work in the prestigious IEEE International Conference on Data Science and Advanced Analytics. The papers focus on novel approaches to big data processing and machine learning optimization."
-  },
-  {
-    "id": 5,
-    "title": "Guest Lecture by Leading Data Scientist",
-    "description": "Industry expert shares insights on future of data science",
-    "image": "/api/placeholder/400/300",
-    "date": "2024-01-03",
-    "content": "Dr. Sarah Chen, Chief Data Scientist at TechCorp, delivered an inspiring lecture on the future of data science and its applications in solving global challenges. The session attracted over 200 students from various departments."
-  },
-  {
-    "id": 6,
-    "title": "Student Research Showcase",
-    "description": "Innovative projects by DSSA members displayed",
-    "image": "/api/placeholder/400/300",
-    "date": "2024-01-01",
-    "content": "The annual student research showcase featured groundbreaking projects in areas such as natural language processing, computer vision, and predictive analytics. The event highlighted the exceptional talent within our student community."
-  },
-  {
-    "id": 7,
-    "title": "Data Visualization Competition",
-    "description": "Creative visual storytelling with data",
-    "image": "/api/placeholder/400/300",
-    "date": "2023-12-28",
-    "content": "Students participated in an exciting data visualization competition, creating compelling visual narratives from complex datasets. The competition emphasized the importance of effective communication in data science."
-  },
-  {
-    "id": 8,
-    "title": "Alumni Success Stories",
-    "description": "Former DSSA members making impact in industry",
-    "image": "/api/placeholder/400/300",
-    "date": "2023-12-25",
-    "content": "Our alumni continue to make significant contributions to the data science field, with many securing positions at top-tier companies and research institutions. Their success stories serve as inspiration for current students."
-  },
-  {
-    "id": 9,
-    "title": "New Lab Equipment Acquisition",
-    "description": "State-of-the-art computing resources for students",
-    "image": "/api/placeholder/400/300",
-    "date": "2023-12-20",
-    "content": "The department has acquired new high-performance computing equipment and advanced GPU clusters, enabling students to work on more complex machine learning projects and research initiatives."
-  },
-  {
-    "id": 10,
-    "title": "International Conference Participation",
-    "description": "DSSA members present at global data science summit",
-    "image": "/api/placeholder/400/300",
-    "date": "2023-12-15",
-    "content": "A delegation of DSSA members attended the International Data Science Summit, presenting their research work and networking with professionals from around the world. The experience provided valuable insights into global trends in data science."
+    "date": "2025-07-28",
+    "content": "The Data Science Student Association is going to host Innovator's Quest."
   }
 ]

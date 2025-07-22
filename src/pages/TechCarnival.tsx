@@ -53,10 +53,6 @@ const TechCarnival = () => {
                   Register Now
                 </Button>
               </Link>
-              <Button variant="outline" size="lg" className="cyber-card px-8 py-4 text-lg">
-                <Calendar className="w-6 h-6 mr-2" />
-                View Schedule
-              </Button>
             </div>
           </div>
         </div>

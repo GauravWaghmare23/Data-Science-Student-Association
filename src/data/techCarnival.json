@@ -1,94 +1,77 @@
 {
   "highlights": [
     {
-      "icon": "Users",
-      "title": "500+ Participants",
-      "description": "Students from top engineering colleges across the region",
-      "color": "primary"
+      "icon": "Trophy",
+      "title": "₹1,500 Prize Pool",
+      "description": "Exciting rewards for top performers across events."
     },
     {
-      "icon": "Trophy",
-      "title": "₹50,000 Prize Pool",
-      "description": "Exciting cash prizes and recognition for winners",
-      "color": "secondary"
+      "icon": "Users",
+      "title": "200+ Participants",
+      "description": "Join a diverse group of tech enthusiasts."
     },
     {
       "icon": "Target",
-      "title": "10+ Competitions",
-      "description": "Diverse challenges across multiple tech domains",
-      "color": "accent"
+      "title": "Hands-On Workshops",
+      "description": "Engage in practical sessions led by experts."
     },
     {
       "icon": "Lightbulb",
-      "title": "Expert Mentors",
-      "description": "Industry professionals guiding participants",
-      "color": "primary"
+      "title": "Innovative Challenges",
+      "description": "Solve real-world problems and showcase your skills."
     }
   ],
   "events": [
     {
-      "name": "The Collab Quest",
+      "name": "The Innovator Quest",
       "description": "Ultimate interdisciplinary collaboration challenge",
       "time": "12:30 PM - 4:45 PM",
-      "venue": "Nirvana Hall",
+      "venue": "will be announced soon",
       "participants": "4 members per team",
       "prize": "₹1,000 + ₹500",
       "status": "Featured Event"
-    },
-    {
-      "name": "Code Sprint",
-      "description": "Fast-paced competitive programming challenge",
-      "time": "9:00 AM - 12:00 PM",
-      "venue": "Computer Lab A",
-      "participants": "Individual",
-      "prize": "₹2,000 + ₹1,200",
-      "status": "Popular"
-    },
-    {
-      "name": "Data Hack",
-      "description": "Machine learning and data science hackathon",
-      "time": "2:00 PM - 8:00 PM",
-      "venue": "Innovation Lab",
-      "participants": "2-3 members per team",
-      "prize": "₹3,000 + ₹2,000",
-      "status": "New"
     }
   ],
   "schedule": [
     {
-      "day": "Day 1",
-      "date": "March 15, 2024",
+      "day": "Innovator Quest schedule",
+      "date": "July 28, 2025 (Monday)",
       "events": [
-        { "time": "9:00 AM", "title": "Registration & Welcome", "location": "Main Auditorium" },
-        { "time": "10:00 AM", "title": "Opening Ceremony", "location": "Main Auditorium" },
-        { "time": "11:00 AM", "title": "Technical Workshops Begin", "location": "Various Labs" },
-        { "time": "2:00 PM", "title": "Lunch Break", "location": "Cafeteria" },
-        { "time": "3:00 PM", "title": "Competition Round 1", "location": "Competition Venues" },
-        { "time": "6:00 PM", "title": "Networking Session", "location": "Lounge Area" }
-      ]
-    },
-    {
-      "day": "Day 2",
-      "date": "March 16, 2024",
-      "events": [
-        { "time": "9:00 AM", "title": "Industry Expert Talks", "location": "Main Auditorium" },
-        { "time": "10:30 AM", "title": "Competition Round 2", "location": "Competition Venues" },
-        { "time": "1:00 PM", "title": "Lunch Break", "location": "Cafeteria" },
-        { "time": "2:00 PM", "title": "Innovation Showcase", "location": "Exhibition Hall" },
-        { "time": "4:00 PM", "title": "Panel Discussion", "location": "Conference Room" },
-        { "time": "6:00 PM", "title": "Cultural Evening", "location": "Open Area" }
-      ]
-    },
-    {
-      "day": "Day 3",
-      "date": "March 17, 2024",
-      "events": [
-        { "time": "9:00 AM", "title": "Final Competitions", "location": "Competition Venues" },
-        { "time": "12:00 PM", "title": "Lunch Break", "location": "Cafeteria" },
-        { "time": "1:00 PM", "title": "Project Presentations", "location": "Presentation Hall" },
-        { "time": "3:00 PM", "title": "Judging & Evaluation", "location": "Closed Session" },
-        { "time": "5:00 PM", "title": "Awards Ceremony", "location": "Main Auditorium" },
-        { "time": "6:30 PM", "title": "Closing Ceremony", "location": "Main Auditorium" }
+        {
+          "time": "12:30 PM",
+          "title": "Registration & Welcome",
+          "location": "will be announced soon"
+        },
+        {
+          "time": "12:45 PM",
+          "title": "Opening Ceremony",
+          "location": "will be announced soon"
+        },
+        {
+          "time": "1:00 PM",
+          "title": "Round 1: Score It",
+          "location": "will be announced soon"
+        },
+        {
+          "time": "1:45 PM",
+          "title": "Round 2: Build It",
+          "location": "will be announced soon"
+        },
+        {
+          "time": "2:30 PM",
+          "title": "Round 3: Think It",
+          "location": "will be announced soon"
+        },
+        {
+          "time": "3:15 PM",
+          "title": "Judging & Evaluation",
+          "location": "will be announced soon"
+        },
+        {
+          "time": "4:30 PM",
+          "title": "Result Announcement & Closing Ceremony",
+          "location": "will be announced soon"
+        }
       ]
     }
   ]

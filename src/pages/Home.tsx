@@ -21,14 +21,14 @@ const Home = () => {
                 <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-2">
                   <Users className="w-6 h-6 text-primary-foreground" />
                 </div>
-                <CardTitle className="font-orbitron text-2xl gradient-text">500+</CardTitle>
+                <CardTitle className="font-orbitron text-2xl gradient-text">50+</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">Active Members</p>
+                <p className="text-muted-foreground">Active Community Members</p>
               </CardContent>
             </Card>
 
-            <Card className="cyber-card text-center animate-slide-in-up animate-delay-100">
+            {/* <Card className="cyber-card text-center animate-slide-in-up animate-delay-100">
               <CardHeader>
                 <div className="w-12 h-12 bg-gradient-secondary rounded-full flex items-center justify-center mx-auto mb-2">
                   <Calendar className="w-6 h-6 text-secondary-foreground" />
@@ -38,17 +38,17 @@ const Home = () => {
               <CardContent>
                 <p className="text-muted-foreground">Events Hosted</p>
               </CardContent>
-            </Card>
+            </Card> */}
 
             <Card className="cyber-card text-center animate-slide-in-up animate-delay-200">
               <CardHeader>
                 <div className="w-12 h-12 bg-gradient-accent rounded-full flex items-center justify-center mx-auto mb-2">
                   <Award className="w-6 h-6 text-accent-foreground" />
                 </div>
-                <CardTitle className="font-orbitron text-2xl gradient-text">25+</CardTitle>
+                <CardTitle className="font-orbitron text-2xl gradient-text">15+</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">Awards Won</p>
+                <p className="text-muted-foreground">Awards Won from DSSA</p>
               </CardContent>
             </Card>
 
@@ -57,7 +57,7 @@ const Home = () => {
                 <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-2">
                   <Zap className="w-6 h-6 text-primary-foreground" />
                 </div>
-                <CardTitle className="font-orbitron text-2xl gradient-text">100+</CardTitle>
+                <CardTitle className="font-orbitron text-2xl gradient-text">20+</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">Projects Completed</p>

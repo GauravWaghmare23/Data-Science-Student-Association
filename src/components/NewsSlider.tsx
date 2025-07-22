@@ -30,9 +30,6 @@ const NewsSlider = () => {
     <section className="py-20 bg-gradient-to-br from-background to-card/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-orbitron font-bold gradient-text mb-4">
-            Latest News
-          </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Stay updated with the latest happenings in the Data Science
             community

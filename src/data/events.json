@@ -1,47 +1,49 @@
 [
   {
     "id": 1,
-    "name": "The Innovator's Quest",
+    "name": "Innovator Quest",
     "venue": "Nirvana Hall",
+    "date": "28th July 2025 (Monday)",
     "time": "12:30 PM to 4:45 PM",
     "fee": "₹120 per team",
-    "teams": "4 members, each from different branches",
+    "teams": "Exactly 4 members per team (cross-branch recommended)",
     "poster": "/api/placeholder/400/600",
     "rounds": [
       {
-        "name": "Logic & Mental Ability",
-        "time": "1:00 - 1:30 PM",
-        "description": "Test your logical reasoning and problem-solving skills"
+        "name": "Score It",
+        "time": "1:00 PM – 1:30 PM",
+        "description": "Challenge your logic with twisted puzzles, story-based codes, and mental gymnastics! It’s not just a quiz — it’s a mind maze!"
       },
       {
-        "name": "Creative Build Challenge",
-        "time": "2:00 - 2:45 PM",
-        "description": "Build innovative solutions using provided materials"
+        "name": "Build It",
+        "time": "2:00 PM – 2:45 PM",
+        "description": "Create something clever using surprise materials — think fast, act faster! A hands-on innovation challenge that tests both your creativity and teamwork."
       },
       {
-        "name": "Multi-Domain Quiz",
-        "time": "3:15 - 3:45 PM",
-        "description": "Cross-disciplinary knowledge test"
+        "name": "Think It",
+        "time": "3:15 PM – 3:45 PM",
+        "description": "Raise your hand, raise your game! A fast-paced live quiz round where your instincts matter. No screens — just sharp minds and quick hands!"
       }
     ],
     "rules": [
-      "Each team must have exactly 4 members from different branches",
+      "Each team must have exactly 4 members (cross-branch teams recommended)",
+      "Same-branch teams are allowed but expect cross-domain challenges",
       "Late entries will not be accepted",
       "All team members must be present during registration",
       "Use of mobile phones is strictly prohibited during rounds"
     ],
-    "scoring": "Total 80 Points, Hint system available",
+    "scoring": "Total 80 Points across all rounds. Hint system available.",
     "prizes": [
-      "₹1000 (1st Place)",
-      "₹500 (2nd Place)",
-      "E-certificates to all participants"
+      "₹1000 + Certificates (1st Prize)",
+      "₹500 + Certificates (2nd Prize)",
+      "E-Certificates to all participants"
     ],
-    "registrationLink": "https://forms.google.com/example",
+    "registrationLink": "https://forms.gle/CRQaQRZWgDieFj8U9",
     "coordinators": [
       { "name": "Yashesh Bhivapurkar", "phone": "+91 9657355038" },
       { "name": "Akshad Aloni", "phone": "+91 9373899460" }
     ],
     "status": "active",
-    "description": "The ultimate interdisciplinary collaboration challenge that tests technical skills, creativity, and teamwork."
+    "description": "A one-of-a-kind inter-branch showdown where innovation meets imagination! Think smart, build bold, and outplay the rest in this thrilling three-round event packed with puzzles, creativity, and pure genius."
   }
-]  
+]
