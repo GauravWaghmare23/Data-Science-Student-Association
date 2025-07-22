@@ -99,7 +99,7 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-in-up animate-delay-500">
             <Link to="/about">
-              <Button size="lg" className="cyber-card group px-8 py-3 font-rajdhani font-semibold text-lg">
+              <Button size="lg" className=" mb-4 cyber-card group px-8 py-3 font-rajdhani font-semibold text-lg">
                 Explore Our Journey
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
@@ -108,7 +108,7 @@ const Hero = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="cyber-card group px-8 py-3 font-rajdhani font-semibold text-lg border-primary/30 hover:border-primary/60 bg-transparent"
+                className="mb-4 cyber-card group px-8 py-3 font-rajdhani font-semibold text-lg border-primary/30 hover:border-primary/60 bg-transparent"
               >
                 Join Events
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />

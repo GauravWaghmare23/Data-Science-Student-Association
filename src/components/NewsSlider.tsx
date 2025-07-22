@@ -37,7 +37,7 @@ const NewsSlider = () => {
         </div>
 
         {/* Slider Section */}
-        <div className="relative overflow-hidden rounded-xl cyber-card h-[28rem] sm:h-[32rem] md:h-96">
+        <div className="relative overflow-hidden rounded-xl cyber-card h-[28rem] sm:h-[32rem] md:h-96 w-full">
           <div
             className="flex transition-transform duration-700 ease-in-out"
             style={{

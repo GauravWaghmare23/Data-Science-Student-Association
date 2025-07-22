@@ -13,8 +13,8 @@ const CommitteeSection = ({ title, members }) => {
           {title}
         </h2>
 
-        <div className="flex justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 justify-center">
+        <div className="flex justify-betwee mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 mdlg:grid-cols-3 xl:grid-cols-4 gap-8 justify-evenly">
             {members.map((member, index) => (
               <Card
                 key={member.id}

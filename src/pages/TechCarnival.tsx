@@ -165,7 +165,7 @@ const TechCarnival = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 gap-8 flex justify-evenly">
             {schedule.map((day, dayIndex) => (
               <Card
                 key={day.day}

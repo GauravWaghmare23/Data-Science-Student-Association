@@ -13,7 +13,7 @@ const Home = () => {
       <Hero />
 
       {/* Quick Stats */}
-      <section className="py-20 bg-gradient-to-br from-card/30 to-background">
+      <section className="py-20 bg-gradient-to-br from-card/30 to-background flex justify-evenly">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center">
             <Card className="cyber-card text-center animate-slide-in-up">
@@ -75,7 +75,7 @@ const Home = () => {
                 guest lectures, and networking events to foster learning and professional growth.
               </p>
               <Link to="/about">
-                <Button size="lg" className="cyber-card group">
+                <Button size="lg" className="cyber-card group mt-4">
                   Learn More About Us
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
@@ -153,7 +153,7 @@ const Home = () => {
               </div>
 
               <Link to="/tech-carnival">
-                <Button size="lg" className="cyber-card group">
+                <Button size="lg" className="cyber-card group mt-6">
                   Explore Tech Carnival
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
@@ -168,10 +168,10 @@ const Home = () => {
                       <Zap className="w-12 h-12 text-primary-foreground" />
                     </div>
                     <h3 className="text-2xl font-orbitron font-bold gradient-text">
-                      Tech Carnival 2024
+                      Tech Carnival 2025
                     </h3>
                     <p className="text-muted-foreground">
-                      March 15-17, 2024
+                      July 28, 2025
                     </p>
                   </div>
                 </div>
