@@ -5,11 +5,11 @@
       "name": "Veena Mam",
       "role": "Head of department",
       "image": "/api/placeholder/300/300",
-      "bio": "Final year Data Science student passionate about machine learning and AI ethics.",
+      "bio": "Professor and Head of the Department of Data Science, committed to academic excellence, research innovation, and the holistic development of students.",
       "socials": {
-        "linkedin": "https://linkedin.com/in/alexchen",
-        "github": "https://github.com/alexchen",
-        "instagram": "https://instagram.com/alexchen_ds"
+        "linkedin": "",
+        "github": "",
+        "instagram": ""
       }
     },
     {
@@ -17,25 +17,25 @@
       "name": "Arpit Topre",
       "role": "Committee Incharge",
       "image": "/api/placeholder/300/300",
-      "bio": "Specializing in computer vision and deep learning applications.",
+      "bio": "Faculty mentor and committee in-charge, focused on guiding students in the fields of computer vision, deep learning, and applied research.",
       "socials": {
-        "linkedin": "https://linkedin.com/in/priyasharma",
-        "github": "https://github.com/priyasharma",
-        "instagram": "https://instagram.com/priya_codes"
+        "linkedin": "",
+        "github": "",
+        "instagram": ""
       }
     }
   ],
   "main": [
     {
       "id": 3,
-      "name": "Yashesh Bhivapurkar",
+      "name": "Yashesh Narendra Bhiwapurkar",
       "role": "President",
       "image": "/api/placeholder/300/300",
-      "bio": "Expert in big data technologies and distributed computing systems.",
+      "bio": "Leading the DSSA with a vision to foster innovation and collaboration in the field of data science and big data analytics.",
       "socials": {
-        "linkedin": "https://linkedin.com/in/rajpatel",
-        "github": "https://github.com/rajpatel",
-        "instagram": "https://instagram.com/raj_tech"
+        "linkedin": "https://www.linkedin.com/in/yashesh-bhiwapurkar-91868a345",
+        "github": "",
+        "instagram": "https://www.instagram.com/yasheshbhiwapurkar?igsh=MWlsbXd5ZGlnd2ptbw=="
       }
     },
     {
@@ -43,11 +43,11 @@
       "name": "Mrunali Dhopte",
       "role": "Vice President",
       "image": "/api/placeholder/300/300",
-      "bio": "Organizing impactful events and workshops for the data science community.",
+      "bio": "Dedicated to supporting the core leadership and ensuring the seamless execution of events and initiatives within the DSSA.",
       "socials": {
-        "linkedin": "https://linkedin.com/in/lisawang",
-        "github": "https://github.com/lisawang",
-        "instagram": "https://instagram.com/lisa_events"
+        "linkedin": "",
+        "github": "",
+        "instagram": ""
       }
     },
     {
@@ -55,11 +55,11 @@
       "name": "Krish Urkude",
       "role": "Secretary",
       "image": "/api/placeholder/300/300",
-      "bio": "Building connections between industry and academia in data science.",
+      "bio": "Facilitating smooth communication, documentation, and coordination across the DSSA team while bridging industry and academia.",
       "socials": {
-        "linkedin": "https://linkedin.com/in/mikerodriguez",
-        "github": "https://github.com/mikerodriguez",
-        "instagram": "https://instagram.com/mike_pr"
+        "linkedin": "http://linkedin.com/in/krishurkude28",
+        "github": "",
+        "instagram": "https://www.instagram.com/krish.dhananjay.urkude?igsh=MTB1a2Y1YWJ5eXRmaA=="
       }
     }
   ],
@@ -69,11 +69,11 @@
       "name": "Akshad Aloni",
       "role": "Technical Head",
       "image": "/api/placeholder/300/300",
-      "bio": "Maintaining records and coordinating internal communications.",
+      "bio": "Driving the technological arm of DSSA by leading development efforts and fostering technical growth within the committee.",
       "socials": {
-        "linkedin": "https://linkedin.com/in/nehagupta",
-        "github": "https://github.com/nehagupta",
-        "instagram": "https://instagram.com/neha_sec"
+        "linkedin": "",
+        "github": "",
+        "instagram": ""
       }
     },
     {
@@ -81,11 +81,11 @@
       "name": "Khushi Bonde",
       "role": "Cultural Head",
       "image": "/api/placeholder/300/300",
-      "bio": "Managing finances and budgets for all DSSA activities.",
+      "bio": "Curating and managing cultural events to enhance student engagement and foster creative expression within the DSSA community.",
       "socials": {
-        "linkedin": "https://linkedin.com/in/arjunsingh",
-        "github": "https://github.com/arjunsingh",
-        "instagram": "https://instagram.com/arjun_finance"
+        "linkedin": "https://www.linkedin.com/in/khushi-bonde-779976294",
+        "github": "",
+        "instagram": "https://www.instagram.com/khushiamruta?igsh=cWV5MWI0bDh6bHI0"
       }
     },
     {
@@ -93,37 +93,73 @@
       "name": "Gaurav Waghmare",
       "role": "Event Coordinator",
       "image": "/api/placeholder/300/300",
-      "bio": "Creating and maintaining digital platforms for the association.",
+      "bio": "Planning and executing impactful events with a focus on digital engagement and seamless organizational flow.",
       "socials": {
-        "linkedin": "https://linkedin.com/in/vikramreddy",
-        "github": "https://github.com/vikramreddy",
-        "instagram": "https://instagram.com/vikram_dev"
+        "linkedin": "https://www.linkedin.com/in/gaurav-waghmare2307/",
+        "github": "https://github.com/GauravWaghmare23",
+        "instagram": ""
+      }
+    },
+    {
+      "id": 9,
+      "name": "Shantanu Bawane",
+      "role": "Event Coordinator",
+      "image": "/api/placeholder/300/300",
+      "bio": "Specializing in digital event planning and operational support to ensure engaging and successful DSSA programs.",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/shantanu-bawane-19b413350",
+        "github": "",
+        "instagram": "https://www.instagram.com/authorshantanu/profilecard/?igsh=bDhxMHFjYXcwZzR4"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Jayesh Sachin Mane",
+      "role": "Sports Head",
+      "image": "/api/placeholder/300/300",
+      "bio": "Promoting sports culture and organizing athletic events to encourage physical wellness and team spirit within the department.",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/jayesh-mane-b4695235a",
+        "github": "",
+        "instagram": "https://www.instagram.com/jersyno___18/profilecard/?igsh=Y2J1cnhyZmQ2OTZu"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Aditya Pawar",
+      "role": "Treasurer",
+      "image": "/api/placeholder/300/300",
+      "bio": "Managing all financial operations, including budgeting and expenditure tracking, to ensure responsible resource allocation.",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/aditya-pawar-217613296",
+        "github": "",
+        "instagram": "https://www.instagram.com/?deoia=1"
       }
     }
   ],
   "coheads": [
     {
-      "id": 9,
+      "id": 16,
       "name": "Pranav Parate",
-      "role": "Cultural Co-head",
+      "role": "Technical Co-head",
       "image": "/api/placeholder/300/300",
-      "bio": "Creating and maintaining digital platforms for the association.",
+      "bio": "Assisting in driving the DSSA’s technical initiatives with a focus on web development and software innovation.",
       "socials": {
-        "linkedin": "https://linkedin.com/in/vikramreddy",
-        "github": "https://github.com/vikramreddy",
-        "instagram": "https://instagram.com/vikram_dev"
+        "linkedin": "https://www.linkedin.com/in/pranav-parate-6a4255365",
+        "github": "",
+        "instagram": "https://www.instagram.com/mr__pranav29__?igsh=dXdycWc4ZWhkcWhs"
       }
     },
     {
-      "id": 10,
-      "name": "Aditi Halmure",
-      "role": "Technical Co-head",
+      "id": 17,
+      "name": "Aditi Halmare",
+      "role": "Co-Cultural Head",
       "image": "/api/placeholder/300/300",
-      "bio": "Creating and maintaining digital platforms for the association.",
+      "bio": "Collaborating on organizing engaging cultural programs and fostering creative student participation across the department.",
       "socials": {
-        "linkedin": "https://linkedin.com/in/vikramreddy",
-        "github": "https://github.com/vikramreddy",
-        "instagram": "https://instagram.com/vikram_dev"
+        "linkedin": "https://www.linkedin.com/in/aditi-halmare-06a62b366",
+        "github": "",
+        "instagram": "https://www.instagram.com/adiitiiihiihiii/profilecard/?igsh=MW9qaDRzZng5OGhyNg=="
       }
     }
   ]

@@ -32,28 +32,29 @@ const About = () => {
     }
   ];
 
-  const achievements = [
-    {
-      year: "2024",
-      title: "Best Student Organization Award",
-      description: "Recognized for outstanding contributions to the academic community"
-    },
-    {
-      year: "2023",
-      title: "International Data Science Competition",
-      description: "First place in the Global University Data Science Challenge"
-    },
-    {
-      year: "2023",
-      title: "Research Excellence Award",
-      description: "Published 15+ papers in top-tier conferences and journals"
-    },
-    {
-      year: "2022",
-      title: "Community Impact Award",
-      description: "Recognized for initiatives that benefit the broader community"
-    }
-  ];
+const achievements = [
+  {
+    year: "2025",
+    title: "Debugging Competition",
+    description: "Won 1st prize in the Debugging Competition organized by the Computer Engineering Department"
+  },
+  {
+    year: "2025",
+    title: "Extempore Competition",
+    description: "Secured 1st place in Extempore organized by the Civil Engineering Department"
+  },
+  {
+    year: "2024",
+    title: "Hackathon – Government College of Engineering & Technology, Nagpur",
+    description: "Achieved 1st prize in the inter-college hackathon"
+  },
+  {
+    year: "2024",
+    title: "Ideathon – KDK College of Engineering",
+    description: "Won 1st prize in the Ideathon competition showcasing innovative tech solutions"
+  }
+];
+
 
   return (
     <div className="min-h-screen pt-20">

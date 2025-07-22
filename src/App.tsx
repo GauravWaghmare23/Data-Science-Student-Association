@@ -5,8 +5,12 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+// Components
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTop from "src/components/ScrollToTop.jsx"; // ✅ ScrollToTop component
+
+// Pages
 import Home from "./pages/Home";
 import About from "./pages/About";
 import News from "./pages/News";
@@ -62,6 +66,7 @@ const App = () => {
         <Toaster />
         <Sonner />
         <BrowserRouter>
+          <ScrollToTop /> {/* ✅ Scroll to top on route change */}
           <div className="min-h-screen bg-background">
             <Navbar />
             <Routes>
