@@ -5,7 +5,7 @@
     "venue": "Will be announced soon",
     "date": "28th July 2025 (Monday)",
     "time": "12:30 PM to 4:45 PM",
-    "fee": "₹120 per team",
+    "fee": "No fees",
     "teams": "Exactly 4 members per team (cross-branch recommended)",
     "poster": "/api/placeholder/400/600",
     "rounds": [
@@ -34,13 +34,11 @@
     ],
     "scoring": "Total 80 Points across all rounds. Hint system available.",
     "prizes": [
-      "₹1000 + Certificates (1st Prize)",
-      "₹500 + Certificates (2nd Prize)",
       "E-Certificates to all participants"
     ],
     "registrationLink": "https://forms.gle/CRQaQRZWgDieFj8U9",
     "coordinators": [
-      { "name": "Yashesh Bhivapurkar", "phone": "+91 9657355038" },
+      { "name": "Yashesh Bhiwapurkar", "phone": "+91 9657355038" },
       { "name": "Khushi Bonde", "phone": "+91 7667971139" }
     ],
     "status": "active",
