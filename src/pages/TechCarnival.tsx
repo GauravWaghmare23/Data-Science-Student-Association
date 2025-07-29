@@ -12,7 +12,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Link } from 'react-router-dom';
-import techCarnivalImage from '/Quest-Winners.jpg';
+import techCarnivalImage from '@/assets/Quest-Winners.jpg';
 import techCarnivalData from '@/data/techCarnival.json';
 
 const iconMap = {

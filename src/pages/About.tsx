@@ -2,7 +2,7 @@ import { Users, Target, Lightbulb, Award, ArrowRight } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import teamPhoto from '/Quest-Winners.jpg';
+import teamPhoto from '@/assets/Quest-Winners.jpg';
 
 const About = () => {
   const values = [

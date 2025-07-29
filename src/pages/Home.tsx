@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { Calendar, Users, Award, Zap, ArrowRight } from 'lucide-react';
-import teamPhoto from '/Quest-Winners.jpg'; // Adjust the path as necessary
+import teamPhoto from "@/assets/Quest-Winners.jpg"; // Adjust the path as necessary
 
 const Home = () => {
   return (
