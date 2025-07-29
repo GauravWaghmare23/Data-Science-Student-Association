@@ -12,7 +12,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Link } from 'react-router-dom';
-import techCarnivalImage from '@/assets/tech-carnival.jpg';
+import techCarnivalImage from '../../public/Quest Winners.jpg';
 import techCarnivalData from '@/data/techCarnival.json';
 
 const iconMap = {
@@ -165,7 +165,7 @@ const TechCarnival = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-8 flex justify-evenly">
+          <div className="grid grid-cols-1 gap-8 justify-evenly">
             {schedule.map((day, dayIndex) => (
               <Card
                 key={day.day}
