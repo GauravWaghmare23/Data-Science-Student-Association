@@ -132,11 +132,10 @@ const NewsSlider = () => {
                 key={index}
                 onClick={() => setCurrentSlide(index + 1)} // Because index 0 is cloned slide
                 aria-label={`Go to slide ${index + 1}`}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  index + 1 === currentSlide
+                className={`w-3 h-3 rounded-full transition-all duration-300 ${index + 1 === currentSlide
                     ? 'bg-primary shadow-neon'
                     : 'bg-muted hover:bg-primary/50'
-                }`}
+                  }`}
               />
             ))}
           </div>
@@ -172,6 +171,7 @@ const NewsSlider = () => {
       </div>
 
       {/* Modal */}
+      {/* Modal */}
       {selectedNews && (
         <div
           className="fixed inset-0 bg-background/80 backdrop-blur-md z-50 flex items-center justify-center p-4"
@@ -179,10 +179,11 @@ const NewsSlider = () => {
           onClick={closeModal}
         >
           <div
-            className="bg-card/90 backdrop-blur-sm border border-primary/20 rounded-xl max-w-2xl w-full max-h-[80vh] overflow-y-auto cyber-card"
+            className="bg-card/90 backdrop-blur-sm border border-primary/20 rounded-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto cyber-card"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="p-6">
+              {/* Close & Date */}
               <div className="flex items-center justify-between mb-4">
                 <Badge variant="secondary" className="font-rajdhani">
                   <Calendar className="w-4 h-4 mr-2" />
@@ -198,9 +199,24 @@ const NewsSlider = () => {
                   ×
                 </Button>
               </div>
+
+              {/* Image */}
+              {selectedNews.image && (
+                <div className="mb-6">
+                  <img
+                    src={selectedNews.image}
+                    alt={selectedNews.title}
+                    className="w-full h-auto object-cover rounded-lg shadow-md"
+                  />
+                </div>
+              )}
+
+              {/* Title */}
               <h3 className="text-2xl md:text-3xl font-orbitron font-bold text-foreground mb-4">
                 {selectedNews.title}
               </h3>
+
+              {/* Description/Content */}
               <p className="text-muted-foreground leading-relaxed whitespace-pre-line">
                 {selectedNews.content}
               </p>
@@ -208,6 +224,7 @@ const NewsSlider = () => {
           </div>
         </div>
       )}
+
     </section>
   );
 };

@@ -84,7 +84,7 @@ const Home = () => {
             <div className="relative animate-slide-in-up animate-delay-200">
               <div className="relative overflow-hidden rounded-xl cyber-card">
                 <img
-                  src={teamPhoto}
+                  src="src/assets/Quest Winners.jpg"
                   alt="DSSA Team Photo"
                   className="w-full h-auto object-cover"
                 />
@@ -163,17 +163,11 @@ const Home = () => {
             <div className="relative animate-slide-in-up animate-delay-200">
               <div className="relative overflow-hidden rounded-xl cyber-card">
                 <div className="aspect-[4/3] bg-gradient-to-br from-primary/20 via-secondary/20 to-accent/20 flex items-center justify-center">
-                  <div className="text-center space-y-4">
-                    <div className="w-24 h-24 bg-gradient-primary rounded-full flex items-center justify-center mx-auto animate-glow-pulse">
-                      <Zap className="w-12 h-12 text-primary-foreground" />
-                    </div>
-                    <h3 className="text-2xl font-orbitron font-bold gradient-text">
-                      Tech Carnival 2025
-                    </h3>
-                    <p className="text-muted-foreground">
-                      July 28, 2025
-                    </p>
-                  </div>
+                  <img
+                    src="src/assets/Quest Winners.jpg"
+                    alt="Tech Carnival Preview"
+                    className="w-full h-full object-cover rounded-lg shadow-md"
+                  />
                 </div>
               </div>
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-accent rounded-full opacity-20 blur-xl animate-pulse-neon" />
