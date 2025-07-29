@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Send, Mail, MessageCircle, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -6,6 +7,33 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 
 const Feedback = () => {
+  const [status, setStatus] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+
+    try {
+      const res = await fetch("https://formsubmit.co/ajax/gauravwaghmare95032@gmail.com", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+        },
+        body: formData,
+      });
+
+      const result = await res.json();
+      if (result.success === "true") {
+        setStatus("✅ Thank you for your feedback!");
+        e.currentTarget.reset();
+      } else {
+        setStatus("⚠️ Submission failed. Please try again later.");
+      }
+    } catch (error) {
+      setStatus("❌ An error occurred while sending. Please try again.");
+    }
+  };
+
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
@@ -33,16 +61,8 @@ const Feedback = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <form
-                  action="https://formsubmit.co/gauravwaghmare95032@gmail.com"
-                  method="POST"
-                  className="space-y-6"
-                >
-                  {/* disable captcha */}
+                <form onSubmit={handleSubmit} className="space-y-6">
                   <input type="hidden" name="_captcha" value="false" />
-
-                  {/* redirect to thank you page (optional) */}
-                  {/* <input type="hidden" name="_next" value="https://yourdomain.com/thank-you" /> */}
 
                   <div className="space-y-2">
                     <Label htmlFor="name" className="text-foreground font-rajdhani">
@@ -94,6 +114,12 @@ const Feedback = () => {
                     Send Feedback
                   </Button>
                 </form>
+
+                {status && (
+                  <p className="text-center text-sm font-medium mt-4 text-muted-foreground">
+                    {status}
+                  </p>
+                )}
               </CardContent>
             </Card>
           </div>
