@@ -55,7 +55,6 @@ const Hero = () => {
 
             <h2 className="text-3xl md:text-5xl font-rajdhani font-bold text-white relative">
               Data Science Student Association
-              <span className="inline-block w-1 h-8 md:h-12 bg-cyan-400 ml-2 animate-cursor-blink" />
             </h2>
           </div>
 
@@ -108,10 +107,10 @@ const Hero = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="mb-4 cyber-card group px-8 py-3 font-rajdhani font-semibold text-lg border-primary/30 hover:border-primary/60 bg-transparent"
+                className="mb-4 mt-4 cyber-card group px-8 py-3 font-rajdhani font-semibold text-lg border-primary/30 hover:border-primary/60 bg-transparent"
               >
                 Join Events
-                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform mt-4" />
               </Button>
             </Link>
           </div>

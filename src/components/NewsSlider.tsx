@@ -1,27 +1,82 @@
-import { useState, useEffect } from "react";
-import { Calendar, ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import newsData from "@/data/news.json";
+import { useState, useEffect, useRef } from 'react';
+import {
+  ChevronLeft,
+  ChevronRight,
+  Calendar,
+  ArrowRight
+} from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle
+} from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import newsData from '@/data/news.json';
 
 const NewsSlider = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentSlide, setCurrentSlide] = useState(1); // Start from first real slide
   const [selectedNews, setSelectedNews] = useState(null);
+  const [isTransitioning, setIsTransitioning] = useState(true);
+  const sliderRef = useRef(null);
 
+  const extendedNewsData = [
+    newsData[newsData.length - 1], // Clone of last
+    ...newsData,
+    newsData[0] // Clone of first
+  ];
+
+  const nextSlide = () => {
+    setCurrentSlide((prev) => prev + 1);
+    setIsTransitioning(true);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => prev - 1);
+    setIsTransitioning(true);
+  };
+
+  const formatDate = (dateString) =>
+    new Date(dateString).toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+
+  // Auto-play slider
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % newsData.length);
-    }, 3000); // 3 seconds
-
+      nextSlide();
+    }, 5000);
     return () => clearInterval(interval);
   }, []);
 
-  const formatDate = (dateString) =>
-    new Date(dateString).toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    });
+  // Infinite loop logic
+  useEffect(() => {
+    const handleTransitionEnd = () => {
+      setIsTransitioning(false);
+      if (currentSlide === extendedNewsData.length - 1) {
+        setCurrentSlide(1);
+      } else if (currentSlide === 0) {
+        setCurrentSlide(extendedNewsData.length - 2);
+      }
+    };
+
+    const slider = sliderRef.current;
+    slider?.addEventListener('transitionend', handleTransitionEnd);
+    return () => slider?.removeEventListener('transitionend', handleTransitionEnd);
+  }, [currentSlide, extendedNewsData.length]);
+
+  useEffect(() => {
+    if (!isTransitioning) {
+      const timeout = setTimeout(() => {
+        setIsTransitioning(true);
+      }, 50);
+      return () => clearTimeout(timeout);
+    }
+  }, [isTransitioning]);
 
   const handleNewsClick = (news) => setSelectedNews(news);
   const closeModal = () => setSelectedNews(null);
@@ -29,85 +84,89 @@ const NewsSlider = () => {
   return (
     <section className="py-20 bg-gradient-to-br from-background to-card/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Stay updated with the latest happenings in the Data Science
-            community
-          </p>
-        </div>
-
-        {/* Slider Section */}
-        <div className="relative overflow-hidden rounded-xl cyber-card h-[28rem] sm:h-[32rem] md:h-96 w-full">
-          <div
-            className="flex transition-transform duration-700 ease-in-out"
-            style={{
-              transform: `translateX(-${currentIndex * 100}%)`,
-              width: `${newsData.length * 100}%`,
-            }}
-          >
-            {newsData.map((news, index) => (
-              <div
-                key={index}
-                className="w-full flex-shrink-0 px-2 sm:px-4 max-w-full"
-              >
-                <div className="relative h-[28rem] sm:h-[32rem] md:h-96 bg-gradient-to-br from-card to-card/50">
-                  {/* Background overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 opacity-50" />
-
-                  {/* Main content */}
-                  <div className="relative z-10 h-full flex items-center">
-                    <div className="container w-full max-w-full mx-auto px-2 sm:px-6 md:px-8">
-                      <div className="max-w-md sm:max-w-2xl md:max-w-4xl">
-                        <Badge
-                          variant="secondary"
-                          className="mb-3 sm:mb-4 font-rajdhani text-sm sm:text-base"
-                        >
-                          <Calendar className="w-4 h-4 mr-2" />
-                          {formatDate(news.date)}
-                        </Badge>
-
-                        <h3 className="text-lg sm:text-2xl md:text-4xl font-orbitron font-bold text-foreground mb-2 sm:mb-4">
-                          {news.title}
-                        </h3>
-
-                        
-
-                        <Button
-                          onClick={() => handleNewsClick(news)}
-                          className="cyber-card group text-sm sm:text-base"
-                        >
-                          Read More
-                          <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                        </Button>
+        {/* Slider */}
+        <div className="relative">
+          <div className="relative overflow-hidden rounded-xl cyber-card">
+            <div
+              ref={sliderRef}
+              className="flex transition-transform duration-500 ease-in-out"
+              style={{
+                transform: `translateX(-${currentSlide * 100}%)`,
+                transition: isTransitioning ? 'transform 0.5s ease-in-out' : 'none'
+              }}
+            >
+              {extendedNewsData.map((news, index) => (
+                <div key={`${news.id}-${index}`} className="w-full flex-shrink-0">
+                  <div className="relative h-96 bg-gradient-to-br from-card to-card/50">
+                    <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 opacity-50" />
+                    <div className="relative z-10 h-full flex items-center">
+                      <div className="container mx-auto px-8">
+                        <div className="max-w-4xl">
+                          <Badge variant="secondary" className="mb-4 font-rajdhani">
+                            <Calendar className="w-4 h-4 mr-2" />
+                            {formatDate(news.date)}
+                          </Badge>
+                          <h3 className="text-2xl md:text-4xl font-orbitron font-bold text-foreground mb-4">
+                            {news.title}
+                          </h3>
+                          <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+                            {news.description}
+                          </p>
+                          <Button onClick={() => handleNewsClick(news)} className="cyber-card group">
+                            Read More
+                            <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                          </Button>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Slide Indicators */}
+          <div className="flex justify-center mt-6 space-x-2">
+            {newsData.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentSlide(index + 1)} // Because index 0 is cloned slide
+                aria-label={`Go to slide ${index + 1}`}
+                className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                  index + 1 === currentSlide
+                    ? 'bg-primary shadow-neon'
+                    : 'bg-muted hover:bg-primary/50'
+                }`}
+              />
             ))}
           </div>
         </div>
 
-        {/* News Preview Grid (Optional) */}
+        {/* News Grid */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {newsData.slice(0, 6).map((news, index) => (
-            <div
+            <Card
               key={news.id}
-              className="cyber-card cursor-pointer transition-all duration-300 hover:scale-[1.02]"
+              className={`cyber-card cursor-pointer transition-all duration-300 animate-slide-in-up`}
+              style={{ animationDelay: `${(index + 1) * 100}ms` }}
               onClick={() => handleNewsClick(news)}
             >
-              <div className="p-4">
-                <Badge variant="outline" className="font-rajdhani mb-2">
-                  {formatDate(news.date)}
-                </Badge>
-                <h4 className="font-orbitron text-lg line-clamp-2">
+              <CardHeader>
+                <div className="flex items-center justify-between mb-2">
+                  <Badge variant="outline" className="font-rajdhani">
+                    {formatDate(news.date)}
+                  </Badge>
+                </div>
+                <CardTitle className="font-orbitron text-lg line-clamp-2">
                   {news.title}
-                </h4>
-                <p className="text-muted-foreground line-clamp-3 mt-2">
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="line-clamp-3 text-muted-foreground">
                   {news.description}
-                </p>
-              </div>
-            </div>
+                </CardDescription>
+              </CardContent>
+            </Card>
           ))}
         </div>
       </div>
@@ -116,6 +175,7 @@ const NewsSlider = () => {
       {selectedNews && (
         <div
           className="fixed inset-0 bg-background/80 backdrop-blur-md z-50 flex items-center justify-center p-4"
+          role="dialog"
           onClick={closeModal}
         >
           <div
@@ -132,7 +192,8 @@ const NewsSlider = () => {
                   variant="ghost"
                   size="icon"
                   onClick={closeModal}
-                  className="text-muted-foreground hover:text-foreground text-xl"
+                  className="text-muted-foreground hover:text-foreground"
+                  aria-label="Close"
                 >
                   ×
                 </Button>
@@ -140,7 +201,7 @@ const NewsSlider = () => {
               <h3 className="text-2xl md:text-3xl font-orbitron font-bold text-foreground mb-4">
                 {selectedNews.title}
               </h3>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-muted-foreground leading-relaxed whitespace-pre-line">
                 {selectedNews.content}
               </p>
             </div>

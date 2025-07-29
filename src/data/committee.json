@@ -2,6 +2,30 @@
   "incharge": [
     {
       "id": 1,
+      "name": "V.J. Arajpure",
+      "role": "Principal, Suryodaya College of Engineering and Technology",
+      "image": "/api/placeholder/300/300",
+      "bio": "Principal at SCET, fostering academic excellence and strategic development in engineering education.",
+      "socials": {
+        "linkedin": "",
+        "github": "",
+        "instagram": ""
+      }
+    },
+    {
+      "id": 2,
+      "name": "Rasika Chafle",
+      "role": "Registrar and Managing Director, Center for Skills and Entrepreneurship Development",
+      "image": "/api/placeholder/300/300",
+      "bio": "Leading initiatives for skill development and entrepreneurship, aligning academic vision with industry needs.",
+      "socials": {
+        "linkedin": "",
+        "github": "",
+        "instagram": ""
+      }
+    },
+    {
+      "id": 3,
       "name": "Veena Mam",
       "role": "Head of department",
       "image": "/api/placeholder/300/300",
@@ -13,7 +37,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 4,
       "name": "Arpit Topre",
       "role": "Committee Incharge",
       "image": "/api/placeholder/300/300",
@@ -27,7 +51,7 @@
   ],
   "main": [
     {
-      "id": 3,
+      "id": 5,
       "name": "Yashesh Narendra Bhiwapurkar",
       "role": "President",
       "image": "/api/placeholder/300/300",
@@ -39,7 +63,7 @@
       }
     },
     {
-      "id": 4,
+      "id": 6,
       "name": "Mrunali Dhopte",
       "role": "Vice President",
       "image": "/api/placeholder/300/300",
@@ -51,7 +75,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 7,
       "name": "Krish Urkude",
       "role": "Secretary",
       "image": "/api/placeholder/300/300",
@@ -61,71 +85,9 @@
         "github": "",
         "instagram": "https://www.instagram.com/krish.dhananjay.urkude?igsh=MTB1a2Y1YWJ5eXRmaA=="
       }
-    }
-  ],
-  "committee": [
-    {
-      "id": 6,
-      "name": "Akshad Aloni",
-      "role": "Technical Head",
-      "image": "/api/placeholder/300/300",
-      "bio": "Driving the technological arm of DSSA by leading development efforts and fostering technical growth within the committee.",
-      "socials": {
-        "linkedin": "",
-        "github": "",
-        "instagram": ""
-      }
-    },
-    {
-      "id": 7,
-      "name": "Khushi Bonde",
-      "role": "Cultural Head",
-      "image": "/api/placeholder/300/300",
-      "bio": "Curating and managing cultural events to enhance student engagement and foster creative expression within the DSSA community.",
-      "socials": {
-        "linkedin": "https://www.linkedin.com/in/khushi-bonde-779976294",
-        "github": "",
-        "instagram": "https://www.instagram.com/khushiamruta?igsh=cWV5MWI0bDh6bHI0"
-      }
     },
     {
       "id": 8,
-      "name": "Gaurav Waghmare",
-      "role": "Event Coordinator",
-      "image": "/api/placeholder/300/300",
-      "bio": "Planning and executing impactful events with a focus on digital engagement and seamless organizational flow.",
-      "socials": {
-        "linkedin": "https://www.linkedin.com/in/gaurav-waghmare2307/",
-        "github": "https://github.com/GauravWaghmare23",
-        "instagram": ""
-      }
-    },
-    {
-      "id": 9,
-      "name": "Shantanu Bawane",
-      "role": "Event Coordinator",
-      "image": "/api/placeholder/300/300",
-      "bio": "Specializing in digital event planning and operational support to ensure engaging and successful DSSA programs.",
-      "socials": {
-        "linkedin": "https://www.linkedin.com/in/shantanu-bawane-19b413350",
-        "github": "",
-        "instagram": "https://www.instagram.com/authorshantanu/profilecard/?igsh=bDhxMHFjYXcwZzR4"
-      }
-    },
-    {
-      "id": 10,
-      "name": "Jayesh Sachin Mane",
-      "role": "Sports Head",
-      "image": "/api/placeholder/300/300",
-      "bio": "Promoting sports culture and organizing athletic events to encourage physical wellness and team spirit within the department.",
-      "socials": {
-        "linkedin": "https://www.linkedin.com/in/jayesh-mane-b4695235a",
-        "github": "",
-        "instagram": "https://www.instagram.com/jersyno___18/profilecard/?igsh=Y2J1cnhyZmQ2OTZu"
-      }
-    },
-    {
-      "id": 11,
       "name": "Aditya Pawar",
       "role": "Treasurer",
       "image": "/api/placeholder/300/300",
@@ -137,9 +99,71 @@
       }
     }
   ],
+  "committee": [
+    {
+      "id": 9,
+      "name": "Akshad Aloni",
+      "role": "Technical Head",
+      "image": "/api/placeholder/300/300",
+      "bio": "Driving the technological arm of DSSA by leading development efforts and fostering technical growth within the committee.",
+      "socials": {
+        "linkedin": "",
+        "github": "",
+        "instagram": ""
+      }
+    },
+    {
+      "id": 10,
+      "name": "Khushi Bonde",
+      "role": "Cultural Head",
+      "image": "/api/placeholder/300/300",
+      "bio": "Curating and managing cultural events to enhance student engagement and foster creative expression within the DSSA community.",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/khushi-bonde-779976294",
+        "github": "",
+        "instagram": "https://www.instagram.com/khushiamruta?igsh=cWV5MWI0bDh6bHI0"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Gaurav Waghmare",
+      "role": "Event Coordinator",
+      "image": "/api/placeholder/300/300",
+      "bio": "Planning and executing impactful events with a focus on digital engagement and seamless organizational flow.",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/gaurav-waghmare2307/",
+        "github": "https://github.com/GauravWaghmare23",
+        "instagram": ""
+      }
+    },
+    {
+      "id": 12,
+      "name": "Shantanu Bawane",
+      "role": "Event Coordinator",
+      "image": "/api/placeholder/300/300",
+      "bio": "Specializing in digital event planning and operational support to ensure engaging and successful DSSA programs.",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/shantanu-bawane-19b413350",
+        "github": "",
+        "instagram": "https://www.instagram.com/authorshantanu/profilecard/?igsh=bDhxMHFjYXcwZzR4"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Jayesh Sachin Mane",
+      "role": "Sports Head",
+      "image": "/api/placeholder/300/300",
+      "bio": "Promoting sports culture and organizing athletic events to encourage physical wellness and team spirit within the department.",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/jayesh-mane-b4695235a",
+        "github": "",
+        "instagram": "https://www.instagram.com/jersyno___18/profilecard/?igsh=Y2J1cnhyZmQ2OTZu"
+      }
+    }
+  ],
   "coheads": [
     {
-      "id": 16,
+      "id": 14,
       "name": "Pranav Parate",
       "role": "Technical Co-head",
       "image": "/api/placeholder/300/300",
@@ -151,7 +175,7 @@
       }
     },
     {
-      "id": 17,
+      "id": 15,
       "name": "Aditi Halmare",
       "role": "Co-Cultural Head",
       "image": "/api/placeholder/300/300",

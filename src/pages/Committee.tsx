@@ -109,9 +109,9 @@ const Committee = () => {
       </section>
 
       {/* Hierarchical Sections */}
-      <CommitteeSection title="Head of Department & Incharge" members={committeeData.incharge} />
-      <CommitteeSection title="President, Vice President & Secretary" members={committeeData.main} />
-      <CommitteeSection title="All Department Heads" members={committeeData.committee} />
+      <CommitteeSection title="Excutives" members={committeeData.incharge} />
+      <CommitteeSection title="Representatives" members={committeeData.main} />
+      <CommitteeSection title="Department Heads" members={committeeData.committee} />
       <CommitteeSection title="Co-Heads" members={committeeData.coheads} />
 
       {/* Join Us */}
