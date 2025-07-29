@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import DSSALogo from "../../public/dssa-logo.jpeg"; //
+import DSSALogo from "dssa-logo.jpeg"; //
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

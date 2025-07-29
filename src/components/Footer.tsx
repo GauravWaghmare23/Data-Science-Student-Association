@@ -1,6 +1,6 @@
 import { Linkedin, Github, Instagram, Mail, Phone, MapPin, Zap } from "lucide-react";
 import { Link } from "react-router-dom";
-import DSSALogo from '../../public/dssa-logo.jpeg'
+import DSSALogo from '/dssa-logo.jpeg'
 
 const Footer = () => {
   return (

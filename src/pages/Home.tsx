@@ -4,7 +4,6 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { Calendar, Users, Award, Zap, ArrowRight } from 'lucide-react';
-import teamPhoto from '@/assets/team-photo.jpg';
 
 const Home = () => {
   return (
@@ -84,7 +83,7 @@ const Home = () => {
             <div className="relative animate-slide-in-up animate-delay-200">
               <div className="relative overflow-hidden rounded-xl cyber-card">
                 <img
-                  src="public/Quest Winners.jpg"
+                  src="/Quest Winners.jpg"
                   alt="DSSA Team Photo"
                   className="w-full h-auto object-cover"
                 />
@@ -164,7 +163,7 @@ const Home = () => {
               <div className="relative overflow-hidden rounded-xl cyber-card">
                 <div className="aspect-[4/3] bg-gradient-to-br from-primary/20 via-secondary/20 to-accent/20 flex items-center justify-center">
                   <img
-                    src="src/assets/Quest Winners.jpg"
+                    src="/Quest Winners.jpg"
                     alt="Tech Carnival Preview"
                     className="w-full h-full object-cover rounded-lg shadow-md"
                   />

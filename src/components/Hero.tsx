@@ -2,7 +2,7 @@ import { ArrowRight, Database, Brain, TrendingUp } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import heroImage from "../../public/hero-bg.jpg";
+import heroImage from "/hero-bg.jpg";
 import { useEffect, useState } from "react";
 
 const Hero = () => {

@@ -100,7 +100,7 @@ const achievements = [
             <div className="relative animate-slide-in-up animate-delay-200">
               <div className="relative overflow-hidden rounded-xl cyber-card">
                 <img
-                  src="public/Quest Winners.jpg"
+                  src="Quest Winners.jpg"
                   alt="DSSA Team"
                   className="w-full h-auto object-cover"
                 />
