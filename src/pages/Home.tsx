@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { Calendar, Users, Award, Zap, ArrowRight } from 'lucide-react';
 import teamPhoto from "@/assets/Quest-Winners.jpg"; // Adjust the path as necessary
+import EventHighlight from '@/components/EventHighlights';
 
 const Home = () => {
   return (
@@ -96,6 +97,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <EventHighlight />
 
       {/* News Section */}
       <NewsSlider />

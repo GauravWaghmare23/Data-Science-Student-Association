@@ -1,0 +1,23 @@
+
+[
+  {
+    "id": 1,
+    "imageUrl": "Ganpati-poster.jpg",
+    "alt": "Data Science Workshop 2024"
+  },
+  {
+    "id": 2,
+    "imageUrl": "Quest-Winners.jpg",
+    "alt": "Hackathon Winners"
+  },
+  {
+    "id": 3,
+    "imageUrl": "Quest-Winners-borchure.jpg",
+    "alt": "Tech Carnival Networking"
+  },
+  {
+    "id": 4,
+    "imageUrl": "Quest-Winners.jpg",
+    "alt": "Industry Experts Session"
+  }
+]

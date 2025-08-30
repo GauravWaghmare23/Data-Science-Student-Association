@@ -43,5 +43,37 @@
     ],
     "status": "inactive",
     "description": "A one-of-a-kind inter-branch showdown where innovation meets imagination! Think smart, build bold, and outplay the rest in this thrilling three-round event packed with puzzles, creativity, and pure genius."
+  },
+  {
+    "id": 2,
+    "name": "Eco-Friendly Ganpati & Painting Competition",
+    "venue": "Suryodaya College of Engineering",
+    "date": "3rd September 2025 (Wednesday)",
+    "time": "Will be announced soon",
+    "fee": "₹20 per person",
+    "teams": "Individual participation",
+    "poster": "/api/placeholder/400/600",
+    "rounds": [
+      {
+        "name": "Eco-Friendly Ganpati Idol Making & Painting",
+        "time": "Will be announced soon",
+        "description": "Participants will showcase their creativity by making eco-friendly Ganpati idols and paintings."
+      }
+    ],
+    "rules": [
+      "No specific rules — just creativity and eco-friendliness!"
+    ],
+    "scoring": "Judgement will be based on creativity, presentation, and eco-friendliness.",
+    "prizes": [
+      "Certificates to all participants",
+      "Special recognition for best entries"
+    ],
+    "registrationLink": "https://forms.gle/8Hpv26A9VM7wyUzv7",
+    "coordinators": [
+      { "name": "Khushi Bonde" },
+      { "name": "Aditi Halamre" }
+    ],
+    "status": "active",
+    "description": "An artistic event celebrating Ganesh Chaturthi with eco-friendly practices. Create idols and paintings that blend tradition with sustainability!"
   }
 ]
