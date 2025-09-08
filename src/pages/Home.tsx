@@ -12,6 +12,7 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <Hero />
+       <EventHighlight />
 
       {/* Quick Stats */}
       <section className="py-20 bg-gradient-to-br from-card/30 to-background flex justify-evenly">
@@ -98,7 +99,7 @@ const Home = () => {
         </div>
       </section>
 
-      <EventHighlight />
+     
 
       {/* News Section */}
       <NewsSlider />
