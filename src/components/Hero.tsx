@@ -13,11 +13,6 @@ const Hero = () => {
       {/* Starfield background */}
       <div className="absolute inset-0 z-0 bg-black">
         <canvas id="stars" className="w-full h-full"></canvas>
-        <img
-          src={heroImage}
-          alt="Cyberpunk Data Science Background"
-          className="w-full h-full object-cover opacity-30"
-        />
         <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-black/60" />
       </div>
 
@@ -36,9 +31,9 @@ const Hero = () => {
         <div className="text-center space-y-14 animate-fade-in">
           {/* DSSA Logo */}
           <div className="flex justify-center">
-            <div className="relative w-48 h-48">
+            <div className="relative w-40 h-40">
               <div className="w-full h-full bg-gradient-to-br from-cyan-500/20 to-purple-500/20 rounded-full flex items-center justify-center backdrop-blur-sm border-2 border-cyan-400/50 relative overflow-hidden">
-                <img src="src\assets\dssa-logo.jpeg"/>
+                <Database className="w-16 h-16 text-cyan-400 z-10 relative animate-pulse-glow" />
               </div>
               <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/30 to-purple-400/30 rounded-full blur-2xl opacity-60 animate-pulse-glow" />
             </div>
@@ -96,7 +91,7 @@ const Hero = () => {
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-in-up animate-delay-500 mb-10">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-in-up animate-delay-500">
             <Link to="/about">
               <Button size="lg" className=" mb-4 cyber-card group px-8 py-3 font-rajdhani font-semibold text-lg">
                 Explore Our Journey
