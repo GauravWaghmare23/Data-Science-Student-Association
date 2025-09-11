@@ -17,7 +17,7 @@ const getImage = (imageName: string) => {
 
 const EventHighlight: React.FC = () => {
   return (
-    <section className="py-16 bg-[#0b0c1a] text-center overflow-hidden relative">
+    <section className="py-16 bg-[#0b0c1a] text-center overflow-hidden relative shadow-lg">
       <h2 className="text-4xl md:text-5xl font-bold text-purple-400 mb-10">
         Past Event Highlights
       </h2>

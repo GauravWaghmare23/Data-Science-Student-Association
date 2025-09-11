@@ -3,17 +3,28 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import committeeData from "@/data/committee.json";
 
+// Dynamically import all images from assets
+const images = import.meta.glob('@/assets/*', { eager: true, import: 'default' });
+
+// Function to get image path by name
+const getImage = (imageName) => {
+  const match = Object.entries(images).find(([path]) =>
+    path.includes(imageName)
+  );
+  return match ? match[1] : null;
+};
+
 const CommitteeSection = ({ title, members }) => {
   if (!members || members.length === 0) return null;
 
   return (
     <section className="py-10 flex flex-col items-center justify-center">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center space-y-8 animate-fade-in ">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center space-y-8 animate-fade-in">
         <h2 className="text-3xl font-orbitron font-bold text-center mb-8 gradient-text">
           {title}
         </h2>
 
-        <div className="flex justify-betwee mx-auto">
+        <div className="flex justify-between mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 mdlg:grid-cols-3 xl:grid-cols-4 gap-8 justify-evenly">
             {members.map((member, index) => (
               <Card
@@ -24,17 +35,9 @@ const CommitteeSection = ({ title, members }) => {
                   <div className="relative mx-auto mb-4">
                     <div className="w-32 h-32 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full flex items-center justify-center overflow-hidden">
                       <img
-                        src={member.image}
+                        src={getImage(member.image) || `https://ui-avatars.com/api/?name=${encodeURIComponent(member.name)}&size=128&background=0891b2&color=fff&bold=true`}
                         alt={member.name}
                         className="w-full h-full object-cover"
-                        onError={(e) => {
-                          const target = e.target;
-                          if (target instanceof HTMLImageElement) {
-                            target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(
-                              member.name
-                            )}&size=128&background=0891b2&color=fff&bold=true`;
-                          }
-                        }}
                       />
                     </div>
                     <div className="absolute inset-0 bg-gradient-primary rounded-full opacity-0 hover:opacity-20 transition-opacity duration-300" />
@@ -96,7 +99,7 @@ const CommitteeSection = ({ title, members }) => {
 const Committee = () => {
   return (
     <div className="min-h-screen pt-20">
-      {/* Hero */}
+      {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-background to-card/30">
         <div className="container mx-auto text-center px-4 sm:px-6 lg:px-8 space-y-8">
           <h1 className="text-5xl md:text-6xl font-orbitron font-bold gradient-text animate-fade-in">
@@ -108,13 +111,13 @@ const Committee = () => {
         </div>
       </section>
 
-      {/* Hierarchical Sections */}
-      <CommitteeSection title="Excutives" members={committeeData.incharge} />
+      {/* Sections for each committee type */}
+      <CommitteeSection title="Executives" members={committeeData.incharge} />
       <CommitteeSection title="Representatives" members={committeeData.main} />
       <CommitteeSection title="Department Heads" members={committeeData.committee} />
       <CommitteeSection title="Co-Heads" members={committeeData.coheads} />
 
-      {/* Join Us */}
+      {/* Join Us Section */}
       <section className="py-20 bg-gradient-to-br from-primary/10 to-secondary/10">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8">
           <h2 className="text-4xl md:text-5xl font-orbitron font-bold gradient-text">
@@ -125,7 +128,7 @@ const Committee = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="cyber-card group px-8 py-3">
-              <a href="mailto:gauravwaghmare95032@gmail.com">
+              <a href="mailto:gauravwaghmare95032@gmail.com" className="flex items-center justify-center">
                 <Mail className="w-5 h-5 mr-2" />
                 Contact Us
               </a>

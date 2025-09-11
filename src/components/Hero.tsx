@@ -36,9 +36,9 @@ const Hero = () => {
         <div className="text-center space-y-14 animate-fade-in">
           {/* DSSA Logo */}
           <div className="flex justify-center">
-            <div className="relative w-32 h-32">
+            <div className="relative w-48 h-48">
               <div className="w-full h-full bg-gradient-to-br from-cyan-500/20 to-purple-500/20 rounded-full flex items-center justify-center backdrop-blur-sm border-2 border-cyan-400/50 relative overflow-hidden">
-                <Database className="w-16 h-16 text-cyan-400 z-10 relative animate-pulse-glow" />
+                <img src="src\assets\dssa-logo.jpeg"/>
               </div>
               <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/30 to-purple-400/30 rounded-full blur-2xl opacity-60 animate-pulse-glow" />
             </div>
@@ -46,7 +46,7 @@ const Hero = () => {
 
           {/* DSSA Title */}
           <div className="space-y-6">
-            <h1 className="text-8xl md:text-[10rem] font-orbitron font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 animate-gradient-shift drop-shadow-xl tracking-wide">
+            <h1 className="text-9xl md:text-[10rem] font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 animate-gradient-shift drop-shadow-xl tracking-wide">
               <span className="inline-block animate-type-letter" style={{ animationDelay: "0ms" }}>D</span>
               <span className="inline-block animate-type-letter" style={{ animationDelay: "150ms" }}>S</span>
               <span className="inline-block animate-type-letter" style={{ animationDelay: "300ms" }}>S</span>
@@ -96,7 +96,7 @@ const Hero = () => {
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-in-up animate-delay-500">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-in-up animate-delay-500 mb-10">
             <Link to="/about">
               <Button size="lg" className=" mb-4 cyber-card group px-8 py-3 font-rajdhani font-semibold text-lg">
                 Explore Our Journey
@@ -110,7 +110,7 @@ const Hero = () => {
                 className="mb-4 cyber-card group px-8 py-3 font-rajdhani font-semibold text-lg border-primary/30 hover:border-primary/60 bg-transparent"
               >
                 Join Events
-                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform mb-4" />
+                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
           </div>

@@ -54,7 +54,7 @@
       "id": 5,
       "name": "Yashesh Narendra Bhiwapurkar",
       "role": "President",
-      "image": "/api/placeholder/300/300",
+      "image": "yashesh.jpg",
       "bio": "Leading the DSSA with a vision to foster innovation and collaboration in the field of data science and big data analytics.",
       "socials": {
         "linkedin": "https://www.linkedin.com/in/yashesh-bhiwapurkar-91868a345",
@@ -66,7 +66,7 @@
       "id": 6,
       "name": "Mrunali Dhopte",
       "role": "Vice President",
-      "image": "/api/placeholder/300/300",
+      "image": "mrunali.jpg",
       "bio": "Dedicated to supporting the core leadership and ensuring the seamless execution of events and initiatives within the DSSA.",
       "socials": {
         "linkedin": "",
@@ -78,7 +78,7 @@
       "id": 7,
       "name": "Krish Urkude",
       "role": "Secretary",
-      "image": "/api/placeholder/300/300",
+      "image": "krish.jpg",
       "bio": "Facilitating smooth communication, documentation, and coordination across the DSSA team while bridging industry and academia.",
       "socials": {
         "linkedin": "http://linkedin.com/in/krishurkude28",
@@ -90,7 +90,7 @@
       "id": 8,
       "name": "Aditya Pawar",
       "role": "Treasurer",
-      "image": "/api/placeholder/300/300",
+      "image": "adityaP.jpg",
       "bio": "Managing all financial operations, including budgeting and expenditure tracking, to ensure responsible resource allocation.",
       "socials": {
         "linkedin": "https://www.linkedin.com/in/aditya-pawar-217613296",
@@ -104,7 +104,7 @@
       "id": 9,
       "name": "Akshad Aloni",
       "role": "Technical Head",
-      "image": "/api/placeholder/300/300",
+      "image": "aksahd.jpg",
       "bio": "Driving the technological arm of DSSA by leading development efforts and fostering technical growth within the committee.",
       "socials": {
         "linkedin": "https://www.linkedin.com/in/akshad-aloni-78a887212",
@@ -116,7 +116,7 @@
       "id": 10,
       "name": "Khushi Bonde",
       "role": "Cultural Head",
-      "image": "/api/placeholder/300/300",
+      "image": "khushi.jpg",
       "bio": "Curating and managing cultural events to enhance student engagement and foster creative expression within the DSSA community.",
       "socials": {
         "linkedin": "https://www.linkedin.com/in/khushi-bonde-779976294",
@@ -128,7 +128,7 @@
       "id": 11,
       "name": "Gaurav Waghmare",
       "role": "Event Coordinator",
-      "image": "/api/placeholder/300/300",
+      "image": "DSC_0016.png",
       "bio": "Planning and executing impactful events with a focus on digital engagement and seamless organizational flow.",
       "socials": {
         "linkedin": "https://www.linkedin.com/in/gaurav-waghmare2307/",
@@ -140,7 +140,7 @@
       "id": 12,
       "name": "Shantanu Bawane",
       "role": "Event Coordinator",
-      "image": "/api/placeholder/300/300",
+      "image": "shanranut.jpg",
       "bio": "Specializing in digital event planning and operational support to ensure engaging and successful DSSA programs.",
       "socials": {
         "linkedin": "https://www.linkedin.com/in/shantanu-bawane-19b413350",
@@ -152,18 +152,66 @@
       "id": 13,
       "name": "Jayesh Sachin Mane",
       "role": "Sports Head",
-      "image": "/api/placeholder/300/300",
+      "image": "jayesh.png",
       "bio": "Promoting sports culture and organizing athletic events to encourage physical wellness and team spirit within the department.",
       "socials": {
         "linkedin": "https://www.linkedin.com/in/jayesh-mane-b4695235a",
         "github": "",
         "instagram": "https://www.instagram.com/jersyno___18/profilecard/?igsh=Y2J1cnhyZmQ2OTZu"
       }
+    },
+    {
+      "id": 14,
+      "name": "Kartikey Kolhe",
+      "role": "Design Head",
+      "image": "kartikey.jpg",
+      "bio": "Overseeing design initiatives and visual branding to enhance DSSA’s outreach and student involvement.",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/kartikey-kolhe-5a058025a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "",
+        "instagram": "https://www.instagram.com/kartikey_kolhe403/profilecard/?igsh=Y2J1cnhyZmQ2OTZu"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Rutvesh Prashant Shingade",
+      "role": "Social Media Head",
+      "image": "ritvesh.png",
+      "bio": "Managing and amplifying the organization’s online presence, ensuring dynamic interaction across social media platforms.",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/rutvesh-shingade-3bb144381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "",
+        "instagram": "https://www.instagram.com/ig._.rutz?igsh=NWEwcnJ5cXdjYTls"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Neevedita Rajurkar",
+      "role": "Girls Representative",
+      "image": "neevedita.jpg",
+      "bio": "Representing and advocating for the interests and engagement of female students within the department and community.",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/neevedita-rajurkar-49663a340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "",
+        "instagram": "https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=gt0rmdi"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Shraddha Bankar",
+      "role": "Training and Placement Head",
+      "image": "sharaddha.jpg",
+      "bio": "Leading efforts to facilitate internships, placements, and skill-building initiatives for student career advancement.",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/shraddha-bankar-5a0564312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "",
+        "instagram": "https://www.instagram.com/invites/contact/?igsh=1lmqgiw63pqlc&utm_content=usd1fdy"
+      }
     }
   ],
   "coheads": [
     {
-      "id": 14,
+      "id": 19,
       "name": "Pranav Parate",
       "role": "Technical Co-head",
       "image": "/api/placeholder/300/300",
@@ -175,7 +223,7 @@
       }
     },
     {
-      "id": 15,
+      "id": 20,
       "name": "Aditi Halmare",
       "role": "Co-Cultural Head",
       "image": "/api/placeholder/300/300",
@@ -184,6 +232,18 @@
         "linkedin": "https://www.linkedin.com/in/aditi-halmare-06a62b366",
         "github": "",
         "instagram": "https://www.instagram.com/adiitiiihiihiii/profilecard/?igsh=MW9qaDRzZng5OGhyNg=="
+      }
+    },
+    {
+      "id": 21,
+      "name": "Gireesh Zade",
+      "role": "Design Co-Head",
+      "image": "geerish.jpg",
+      "bio": "Supporting design efforts to enhance visual communication and organizational branding for DSSA activities.",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/gireesh-zade-3462752a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "",
+        "instagram": "https://www.instagram.com/girish000055?utm_source=qr&igsh=NXoweWZpMngxNTZz"
       }
     }
   ]
