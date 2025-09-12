@@ -104,7 +104,7 @@
       "id": 9,
       "name": "Akshad Aloni",
       "role": "Technical Head",
-      "image": "aksahd.jpg",
+      "image": "Akshad.jpg",
       "bio": "Driving the technological arm of DSSA by leading development efforts and fostering technical growth within the committee.",
       "socials": {
         "linkedin": "https://www.linkedin.com/in/akshad-aloni-78a887212",
@@ -207,33 +207,33 @@
         "github": "",
         "instagram": "https://www.instagram.com/invites/contact/?igsh=1lmqgiw63pqlc&utm_content=usd1fdy"
       }
-    }
-  ],
-  "coheads": [
+    },
     {
       "id": 19,
-      "name": "Pranav Parate",
-      "role": "Technical Co-head",
-      "image": "/api/placeholder/300/300",
-      "bio": "Assisting in driving the DSSA’s technical initiatives with a focus on web development and software innovation.",
+      "name": "Aditya Bawane",
+      "role": "Research & Development Co-Head",
+      "image": "adityabawane.jpg",
+      "bio": "Leading efforts to facilitate internships, placements, and skill-building initiatives for student career advancement.",
       "socials": {
-        "linkedin": "https://www.linkedin.com/in/pranav-parate-6a4255365",
+        "linkedin": "https://www.linkedin.com/in/shraddha-bankar-5a0564312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "github": "",
-        "instagram": "https://www.instagram.com/mr__pranav29__?igsh=dXdycWc4ZWhkcWhs"
+        "instagram": "https://www.instagram.com/invites/contact/?igsh=1lmqgiw63pqlc&utm_content=usd1fdy"
       }
     },
     {
       "id": 20,
-      "name": "Aditi Halmare",
-      "role": "Co-Cultural Head",
-      "image": "/api/placeholder/300/300",
-      "bio": "Collaborating on organizing engaging cultural programs and fostering creative student participation across the department.",
+      "name": "Harsha Ghodpage",
+      "role": "Entrepreneurship Cell Head",
+      "image": "sharaddha.jpg",
+      "bio": "Leading efforts to facilitate internships, placements, and skill-building initiatives for student career advancement.",
       "socials": {
-        "linkedin": "https://www.linkedin.com/in/aditi-halmare-06a62b366",
+        "linkedin": "https://www.linkedin.com/in/harsha-ghodpage-17441822a",
         "github": "",
-        "instagram": "https://www.instagram.com/adiitiiihiihiii/profilecard/?igsh=MW9qaDRzZng5OGhyNg=="
+        "instagram": "https://www.instagram.com/invites/contact/?igsh=1lmqgiw63pqlc&utm_content=usd1fdy"
       }
-    },
+    }
+  ],
+  "coheads": [
     {
       "id": 21,
       "name": "Gireesh Zade",
@@ -245,6 +245,31 @@
         "github": "",
         "instagram": "https://www.instagram.com/girish000055?utm_source=qr&igsh=NXoweWZpMngxNTZz"
       }
+    },
+    {
+      "id": 22,
+      "name": "Harshal Hivarkar",
+      "role": "Research & Development Co-Head",
+      "image": "harshalhiwarkar1.jpg",
+      "bio": "Supporting design efforts to enhance visual communication and organizational branding for DSSA activities.",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/gireesh-zade-3462752a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "",
+        "instagram": "https://www.instagram.com/girish000055?utm_source=qr&igsh=NXoweWZpMngxNTZz"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Aditi Halmare",
+      "role": "Co-Cultural Head",
+      "image": "/api/placeholder/300/300",
+      "bio": "Collaborating on organizing engaging cultural programs and fostering creative student participation across the department.",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/aditi-halmare-06a62b366",
+        "github": "",
+        "instagram": "https://www.instagram.com/adiitiiihiihiii/profilecard/?igsh=MW9qaDRzZng5OGhyNg=="
+      }
     }
+    
   ]
 }
